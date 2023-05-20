@@ -6,7 +6,7 @@ float: left;
 }
 
 .section {
-    background-color: rgb(205, 157, 157);
+    background-color: rgb(226, 216, 216);
     
     border: 1px solid;
    
@@ -47,18 +47,47 @@ float: left;
     height: 100vh;
     display: flex;
     background-color: white;
+    font-size: 17px;
+    
+}
+.section3 p {
+    margin: 10px;
+    padding: 10px;
 }
 
 .left {
-    background-color: aqua;
-    flex-grow: 0.7;
+    background-color: white;
+    width: 70%;
+    margin: 5px;
+
 }
 
 .rigth {
     background-color: aquamarine;
-    flex-grow: 0.3;
+ width: 30%;
+ margin: 5px;
+
 }
 
-.rigth1 {
-    width: 250px;
+  .rigth h2 {
+    
+        background-color: antiquewhite;
+        margin: 10px;
+  
    }
+  
+  .rigthclm a {
+    float: right;
+    padding: 20px;
+    margin: 20px;
+   
+  }
+
+  .left1 h2  {
+   margin-top: 0px;
+   height: 30px;
+      background-color: rgb(235, 232, 232);
+  }
+  .left span {
+    display: block;
+}
