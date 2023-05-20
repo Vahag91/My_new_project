@@ -1,93 +1,152 @@
-.main {
-float: left;
-   width: 100%;
-   
-    
-}
-
-.section {
-    background-color: rgb(226, 216, 216);
-    
-    border: 1px solid;
-   
-}
-.section1 {
-       height: 100px;
-      background-color: rgb(48, 184, 184);
-        color: white;
-       line-height: 50px;
-       font-size: 20px;
-       padding: 10px 20px;
-       
-}
-
-.section2 {
-   
-  line-height: 1px;
+    .main {
+    float: left;
     width: 100%;
-      height: 30px;
-      background-color: gray;
     
-}
-.section2 ul {
-    padding: 0px;
-}
-.section2 li {
-    display: inline;
-   
-   }
+  }
 
-.section2 a {
-    color: white;
-    text-decoration: none;
-    margin: 0 10px;
-}
-
-.section3 {
-    height: 100vh;
-    display: flex;
-    background-color: white;
-    font-size: 17px;
+    .section {
+        background-color: rgb(226, 216, 216);
+        
+        border: 1px solid;
     
-}
-.section3 p {
-    margin: 10px;
-    padding: 10px;
-}
+    }
+    .section1 {
+        height: 100px;
+        background-color: rgb(48, 184, 184);
+            color: white;
+        line-height: 50px;
+        font-size: 20px;
+        padding: 10px 20px;
+        
+    }
 
-.left {
-    background-color: white;
-    width: 70%;
-    margin: 5px;
-
-}
-
-.rigth {
-    background-color: aquamarine;
- width: 30%;
- margin: 5px;
-
-}
-
-  .rigth h2 {
+    .section2 {
     
+    line-height: 1px;
+        width: 100%;
+        height: 30px;
+        background-color: gray;
+        
+    }
+    .section2 ul {
+        padding: 0px;
+    }
+    .section2 li {
+        display: inline;
+    
+    }
+
+    .section2 a {
+        color: white;
+        text-decoration: none;
+        margin: 0 10px;
+    }
+
+    
+    .section3 {
+        
+        display: flex;
+        background-color: white;
+        font-size: 17px;
+        
+    }
+    .section3 p {
+        margin: 10px;
+        padding: 10px;
+    }
+    .left h2 span{
+        margin-right: 5px;
+        
+    }
+
+    .left {
+        background-color: white;
+        width: 70%;
+        margin: 5px;
+        }
+
+
+        .left1 {
+            float: right;
+        }
+
+        .left2 {
+            clear: right;
+           
+        }
+        .left2 p {
+            font-size: 20px;
+            font-weight: bold;
+            color: rgb(46, 163, 165);
+         }
+         .left h2  {
+            margin-top: 0px;
+            height: 30px;
+                background-color: rgb(235, 232, 232);
+            }
+        
+        
+           .text span {
+            margin-left: 10px;
+            display: block;
+           }
+         
+
+
+    .rigth {
+
+        width: 30%;
+        margin: 5px;
+
+    }
+
+    .rigth h2 {
+        
         background-color: antiquewhite;
         margin: 10px;
-  
-   }
-  
-  .rigthclm a {
-    float: right;
-    padding: 20px;
-    margin: 20px;
-   
-  }
+    
+    }
+    
+    .rigthclm a {
+        float: right;
+        padding: 20px;
+        margin: 20px;
+    
+    }
 
-  .left1 h2  {
-   margin-top: 0px;
-   height: 30px;
-      background-color: rgb(235, 232, 232);
-  }
-  .left span {
-    display: block;
-}
+  
+
+    .rigth h2 {
+        margin: 0px;
+        height: 27px;
+            background-color: gray;
+            color: white;
+            font-size: 22px;
+            padding: 3px;
+           
+    }
+
+    .rigth li {
+        padding: 4px;
+        font-size: 20px;
+        
+    }
+    .rigth3  {
+     
+        font-size: 20px;
+    }
+    .rigth3 dl {
+        margin-left: 15px;
+        margin-top: 0px;
+        padding: 10px;
+        }
+    .rigth3 span {
+            display: block;
+        }
+    .rigth3 dd {
+      margin-top: 25px;
+        float: right;
+    }
+    .rigth3 p {
+        margin-top: 0px;
+    }
